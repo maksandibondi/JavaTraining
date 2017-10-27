@@ -4,6 +4,7 @@ import java.lang.reflect.Array;
 import java.util.*;
 import java.util.Collections;
 import java.util.Iterator;
+import java.util.Random.*;
 
 public class ArrayTest{
     public static void main(String[] args) {
@@ -16,6 +17,8 @@ public class ArrayTest{
             k = 1;
             System.out.print(k + "\n");
         }
+
+
 
     }
 }

@@ -1,4 +1,4 @@
-package com.company;
+package Inheritance;
 
 // no need to import classes Juice.java and Interfaces as all of them are in this package
 // only public classes from another packages can be accessed after importing
@@ -26,6 +26,10 @@ public class Main {
         String a = f+"x";
         int b = a.compareTo(a+"x");
         System.out.println(b);
+
+
+        Apple obj3 = new Apple();
+        obj3.bit();
 
     }
 }
